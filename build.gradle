@@ -1,0 +1,14 @@
+// https://docs.gradle.org/6.1.1/userguide/java_library_plugin.html
+
+plugins {
+    id 'java-library'
+}
+
+version '0.1.0'
+
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
