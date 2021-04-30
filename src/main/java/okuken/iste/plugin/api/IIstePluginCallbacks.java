@@ -1,6 +1,7 @@
 package okuken.iste.plugin.api;
 
 import java.io.OutputStream;
+import java.util.List;
 
 public interface IIstePluginCallbacks {
 
@@ -11,6 +12,11 @@ public interface IIstePluginCallbacks {
 
 	void registerIsteContextMenuFactory(IIsteContextMenuFactory factory);
 	void removeIsteContextMenuFactory(IIsteContextMenuFactory factory);
+
+	void registerIsteRepeaterContextMenuFactory(IIsteContextMenuFactory factory);
+	void removeIsteRepeaterContextMenuFactory(IIsteContextMenuFactory factory);
+
+	void importIsteMessages(List<IIsteImportMessage> importMessages);
 
 	void saveIstePluginProjectOption(String name, String value);
 	String loadIstePluginProjectOption(String name);
