@@ -27,4 +27,6 @@ public interface IIstePluginCallbacks {
 	OutputStream getStdout();
 	OutputStream getStderr();
 
+	IIstePluginHelpers getHelpers();
+
 }
