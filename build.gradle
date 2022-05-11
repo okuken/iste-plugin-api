@@ -17,3 +17,8 @@ jar {
         include '**/*.java'
     }
 }
+
+javadoc {
+    options.encoding = 'UTF-8'
+    destinationDir = file("./docs")
+}

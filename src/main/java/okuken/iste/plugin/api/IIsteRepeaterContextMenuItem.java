@@ -12,7 +12,7 @@ public interface IIsteRepeaterContextMenuItem extends IIsteContextMenuNode {
 
 	/**
 	 * コンテキストメニューアイテムの処理を実行します。
-	 * @param isteExportMessages 選択されているレコードのリスト
+	 * @param isteExportRepeatMessages 選択されているレコードのリスト
 	 */
 	void invoke(List<? extends IIsteExportRepeatMessage> isteExportRepeatMessages);
 

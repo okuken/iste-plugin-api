@@ -11,7 +11,7 @@ public interface IIstePluginHelpers {
 
 	/**
 	 * JSON文字列をパースし、指定されたクラスのインスタンスへ変換して返します。
-	 * @param <T> 
+	 * @param <T> 変換先クラス
 	 * @param json パース対象のJSON文字列
 	 * @param classOfT 変換先クラス
 	 * @return 変換先クラスのインスタンス

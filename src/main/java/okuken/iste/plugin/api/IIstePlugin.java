@@ -12,7 +12,7 @@ public interface IIstePlugin {
 	/**
 	 * ISTEプラグインのロード時に呼び出されるメソッドです。
 	 * 引数の callbacks を用いて、ISTEプラグインによる拡張機能をISTEに登録します。
-	 * @param callbacks
+	 * @param callbacks callbacks
 	 */
 	void registerCallbacks(IIstePluginCallbacks callbacks);
 

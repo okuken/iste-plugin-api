@@ -20,42 +20,42 @@ public interface IIstePluginCallbacks {
 
 	/**
 	 * ISTEプラグイン用のタブを追加します。
-	 * @param tab
+	 * @param tab タブ
 	 */
 	void addIstePluginTab(IIstePluginTab tab);
 	/**
 	 * 追加済みのISTEプラグイン用タブを除去します。
-	 * @param tab
+	 * @param tab タブ
 	 */
 	void removeIstePluginTab(IIstePluginTab tab);
 
 	/**
 	 * URL一覧テーブルのコンテキストメニューに追加するプラグイン独自メニューの、ファクトリークラスを追加します。
 	 * 登録されたファクトリーの生成メソッドは、コンテキストメニューが表示される毎に呼び出されます。
-	 * @param factory
+	 * @param factory ファクトリー
 	 */
 	void registerIsteContextMenuFactory(IIsteContextMenuFactory factory);
 	/**
 	 * 登録済みのURL一覧テーブル用コンテキストメニューファクトリーを除去します。
-	 * @param factory
+	 * @param factory ファクトリー
 	 */
 	void removeIsteContextMenuFactory(IIsteContextMenuFactory factory);
 
 	/**
 	 * Repeat履歴テーブルのコンテキストメニューに追加するプラグイン独自メニューの、ファクトリークラスを追加します。
 	 * 登録されたファクトリーの生成メソッドは、コンテキストメニューが表示される毎に呼び出されます。
-	 * @param factory
+	 * @param factory ファクトリー
 	 */
 	void registerIsteRepeaterContextMenuFactory(IIsteContextMenuFactory factory);
 	/**
 	 * 登録済みのRepeat履歴テーブル用コンテキストメニューファクトリーを除去します。
-	 * @param factory
+	 * @param factory ファクトリー
 	 */
 	void removeIsteRepeaterContextMenuFactory(IIsteContextMenuFactory factory);
 
 	/**
 	 * URL一覧にレコードを追加します。
-	 * @param importMessages
+	 * @param importMessages レコード
 	 */
 	void importIsteMessages(List<IIsteImportMessage> importMessages);
 
