@@ -6,6 +6,12 @@ import java.util.function.Consumer;
 import okuken.iste.plugin.api.IIsteExportRepeatMessage;
 import okuken.iste.plugin.api.IIsteRepeaterContextMenuItem;
 
+/**
+ * {@link IIsteRepeaterContextMenuItem}の既定実装クラスです。
+ * 
+ * @author okuken
+ *
+ */
 public class DefaultIsteRepeaterContextMenuItem extends AbstractIsteContextMenuNode implements IIsteRepeaterContextMenuItem {
 
 	private Consumer<List<? extends IIsteExportRepeatMessage>> action;

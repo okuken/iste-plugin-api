@@ -4,6 +4,12 @@ import okuken.iste.plugin.api.IIsteImportMessage;
 import okuken.iste.plugin.api.IIsteMessage;
 import okuken.iste.plugin.api.IIsteMessageNotes;
 
+/**
+ * {@link IIsteImportMessage}の既定実装クラスです。
+ * 
+ * @author okuken
+ *
+ */
 public class DefaultIsteImportMessage implements IIsteImportMessage {
 
 	private IIsteMessage message;

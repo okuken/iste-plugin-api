@@ -6,6 +6,12 @@ import java.util.List;
 import okuken.iste.plugin.api.IIsteContextMenuGroup;
 import okuken.iste.plugin.api.IIsteContextMenuNode;
 
+/**
+ * {@link IIsteContextMenuGroup}の既定実装クラスです。
+ * 
+ * @author okuken
+ *
+ */
 public class DefaultIsteContextMenuGroup extends AbstractIsteContextMenuNode implements IIsteContextMenuGroup {
 
 	private List<IIsteContextMenuNode> children = new ArrayList<IIsteContextMenuNode>();

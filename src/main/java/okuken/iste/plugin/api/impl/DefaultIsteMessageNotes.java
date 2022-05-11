@@ -2,6 +2,12 @@ package okuken.iste.plugin.api.impl;
 
 import okuken.iste.plugin.api.IIsteMessageNotes;
 
+/**
+ * {@link IIsteMessageNotes}の既定実装クラスです。
+ * 
+ * @author okuken
+ *
+ */
 public class DefaultIsteMessageNotes implements IIsteMessageNotes {
 
 	private String name;

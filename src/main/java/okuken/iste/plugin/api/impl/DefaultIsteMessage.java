@@ -2,6 +2,12 @@ package okuken.iste.plugin.api.impl;
 
 import okuken.iste.plugin.api.IIsteMessage;
 
+/**
+ * {@link IIsteMessage}の既定実装クラスです。
+ * 
+ * @author okuken
+ *
+ */
 public class DefaultIsteMessage implements IIsteMessage {
 
 	private String protocol;
