@@ -22,3 +22,5 @@ javadoc {
     options.encoding = 'UTF-8'
     destinationDir = file("./docs")
 }
+
+defaultTasks 'jar'
